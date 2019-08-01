@@ -4,8 +4,7 @@ class CreateCats < ActiveRecord::Migration
       t.string :name
       t.integer :age
       t.string :breed
-      t.integer :owner_id
-    end
+      
   end
   
   def down
